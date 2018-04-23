@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>supermarket.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RegesterServlet</servlet-name>
+    <servlet-class>supermarket.RegesterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegesterServlet</servlet-name>
+    <url-pattern>/regester</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ExitServlet</servlet-name>
+    <servlet-class>supermarket.ExitServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExitServlet</servlet-name>
+    <url-pattern>/remove</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>BuyServlet</servlet-name>
+    <servlet-class>supermarket.BuyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BuyServlet</servlet-name>
+    <url-pattern>/buy</url-pattern>
+  </servlet-mapping>
+</web-app>
